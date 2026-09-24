@@ -6,7 +6,7 @@ NAME = "Mueed"
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         body = (
-    f"<h1>Hello, {NAME}!</h1>"
+    f"<h1>hey, {NAME}!</h1>"
     f"<p>Keep shipping small wins.</p>"
 ).encode()
         self.send_response(200)
